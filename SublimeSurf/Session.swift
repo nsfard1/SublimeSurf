@@ -16,13 +16,13 @@ class Session {
     var notes: String?
     
     // stubbed
-    class func getSessionsFromDB() -> [SurfSpot] {
+    class func getSessionsFromDB(user: User) -> [SurfSpot] {
         return [SurfSpot]()
     }
-    
-    func updateSessionInDB() {
-        
-    }
+//    handle with accessors
+//    func updateSessionInDB() {
+//        
+//    }
     
     func deleteSessionInDB() {
         
