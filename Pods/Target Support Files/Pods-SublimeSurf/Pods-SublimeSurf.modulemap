@@ -1,0 +1,6 @@
+framework module Pods_SublimeSurf {
+  umbrella header "Pods-SublimeSurf-umbrella.h"
+
+  export *
+  module * { export * }
+}
