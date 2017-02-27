@@ -9,5 +9,7 @@
 import Foundation
 
 class SurfSpot {
+	var latitude: Float?
+	var longitude: Float?
     
 }

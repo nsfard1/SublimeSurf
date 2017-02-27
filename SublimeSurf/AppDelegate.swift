@@ -7,15 +7,27 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseAuth
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    var email = "tester@gmail.com"
+    var password = "password"
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        FIRApp.configure()
+
+        // Need UI code to get user email and password
+        // Need to check email and password for validity
+        FIRAuth.auth()?.signIn(withEmail: email, password: password) { (user, error) in
+            // ...
+        }
+}
         return true
     }
 
