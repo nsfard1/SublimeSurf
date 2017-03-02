@@ -27,7 +27,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         FIRAuth.auth()?.signIn(withEmail: email, password: password) { (user, error) in
             // ...
         }
-}
+        
         return true
     }
 
