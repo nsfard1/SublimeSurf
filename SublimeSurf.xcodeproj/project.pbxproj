@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32D7224FFE4EC449C5EC889E /* Pods_SublimeSurfTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6092A6472441DBE867ED9027 /* Pods_SublimeSurfTests.framework */; };
 		5A70F4021E36D80C00D44D96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A70F4011E36D80C00D44D96 /* AppDelegate.swift */; };
 		5A70F4041E36D80C00D44D96 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A70F4031E36D80C00D44D96 /* FirstViewController.swift */; };
 		5A70F4061E36D80C00D44D96 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A70F4051E36D80C00D44D96 /* SecondViewController.swift */; };
@@ -18,6 +19,7 @@
 		5AFA2C101E56A9E000DA737E /* Preference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AFA2C0F1E56A9E000DA737E /* Preference.swift */; };
 		5AFA2C121E56A9E900DA737E /* SurfSpot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AFA2C111E56A9E900DA737E /* SurfSpot.swift */; };
 		5AFA2C141E56A9F000DA737E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AFA2C131E56A9F000DA737E /* User.swift */; };
+		B0FD7C2A79EE6E006134FF36 /* Pods_SublimeSurf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08529CD00354938E0E112792 /* Pods_SublimeSurf.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +33,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08529CD00354938E0E112792 /* Pods_SublimeSurf.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SublimeSurf.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C67C1560DCA00FE0992BBA6 /* Pods-SublimeSurf.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SublimeSurf.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SublimeSurf/Pods-SublimeSurf.debug.xcconfig"; sourceTree = "<group>"; };
+		29473AA743419BB9E8732E61 /* Pods-SublimeSurfTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SublimeSurfTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SublimeSurfTests/Pods-SublimeSurfTests.release.xcconfig"; sourceTree = "<group>"; };
 		5A70F3FE1E36D80C00D44D96 /* SublimeSurf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SublimeSurf.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A70F4011E36D80C00D44D96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5A70F4031E36D80C00D44D96 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -46,6 +51,9 @@
 		5AFA2C0F1E56A9E000DA737E /* Preference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Preference.swift; sourceTree = "<group>"; };
 		5AFA2C111E56A9E900DA737E /* SurfSpot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SurfSpot.swift; sourceTree = "<group>"; };
 		5AFA2C131E56A9F000DA737E /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		6092A6472441DBE867ED9027 /* Pods_SublimeSurfTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SublimeSurfTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		737E4D9C7DE2BD54C87DA3BD /* Pods-SublimeSurfTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SublimeSurfTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SublimeSurfTests/Pods-SublimeSurfTests.debug.xcconfig"; sourceTree = "<group>"; };
+		878877B04ECFE8E71D387C11 /* Pods-SublimeSurf.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SublimeSurf.release.xcconfig"; path = "Pods/Target Support Files/Pods-SublimeSurf/Pods-SublimeSurf.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0FD7C2A79EE6E006134FF36 /* Pods_SublimeSurf.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,18 +69,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32D7224FFE4EC449C5EC889E /* Pods_SublimeSurfTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5926005FA8D73E2F7EF5C039 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0C67C1560DCA00FE0992BBA6 /* Pods-SublimeSurf.debug.xcconfig */,
+				878877B04ECFE8E71D387C11 /* Pods-SublimeSurf.release.xcconfig */,
+				737E4D9C7DE2BD54C87DA3BD /* Pods-SublimeSurfTests.debug.xcconfig */,
+				29473AA743419BB9E8732E61 /* Pods-SublimeSurfTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		5A70F3F51E36D80B00D44D96 = {
 			isa = PBXGroup;
 			children = (
 				5A70F4001E36D80C00D44D96 /* SublimeSurf */,
 				5A70F4171E36D80F00D44D96 /* SublimeSurfTests */,
 				5A70F3FF1E36D80C00D44D96 /* Products */,
+				5926005FA8D73E2F7EF5C039 /* Pods */,
+				6B8245572156AD356F3258E1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -119,6 +142,15 @@
 			name = Models;
 			sourceTree = "<group>";
 		};
+		6B8245572156AD356F3258E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08529CD00354938E0E112792 /* Pods_SublimeSurf.framework */,
+				6092A6472441DBE867ED9027 /* Pods_SublimeSurfTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +158,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5A70F41D1E36D80F00D44D96 /* Build configuration list for PBXNativeTarget "SublimeSurf" */;
 			buildPhases = (
+				10AC5DFA99A67F1C756AF2E2 /* [CP] Check Pods Manifest.lock */,
 				5A70F3FA1E36D80C00D44D96 /* Sources */,
 				5A70F3FB1E36D80C00D44D96 /* Frameworks */,
 				5A70F3FC1E36D80C00D44D96 /* Resources */,
+				A307907954F5D4522CB845D9 /* [CP] Embed Pods Frameworks */,
+				7D384F60A762F814D464E4D4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -143,9 +178,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5A70F4201E36D80F00D44D96 /* Build configuration list for PBXNativeTarget "SublimeSurfTests" */;
 			buildPhases = (
+				191F6A1B754112D0769F8DE9 /* [CP] Check Pods Manifest.lock */,
 				5A70F4101E36D80F00D44D96 /* Sources */,
 				5A70F4111E36D80F00D44D96 /* Frameworks */,
 				5A70F4121E36D80F00D44D96 /* Resources */,
+				2BBF45136B0071ABF04B9841 /* [CP] Embed Pods Frameworks */,
+				CF88FDF6860EBD58736B6205 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -218,6 +256,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10AC5DFA99A67F1C756AF2E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		191F6A1B754112D0769F8DE9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2BBF45136B0071ABF04B9841 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SublimeSurfTests/Pods-SublimeSurfTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D384F60A762F814D464E4D4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SublimeSurf/Pods-SublimeSurf-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A307907954F5D4522CB845D9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SublimeSurf/Pods-SublimeSurf-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF88FDF6860EBD58736B6205 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SublimeSurfTests/Pods-SublimeSurfTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5A70F3FA1E36D80C00D44D96 /* Sources */ = {
@@ -367,6 +498,7 @@
 		};
 		5A70F41E1E36D80F00D44D96 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C67C1560DCA00FE0992BBA6 /* Pods-SublimeSurf.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 255X6JXDZ4;
@@ -380,6 +512,7 @@
 		};
 		5A70F41F1E36D80F00D44D96 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 878877B04ECFE8E71D387C11 /* Pods-SublimeSurf.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 255X6JXDZ4;
@@ -393,6 +526,7 @@
 		};
 		5A70F4211E36D80F00D44D96 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 737E4D9C7DE2BD54C87DA3BD /* Pods-SublimeSurfTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -408,6 +542,7 @@
 		};
 		5A70F4221E36D80F00D44D96 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29473AA743419BB9E8732E61 /* Pods-SublimeSurfTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
